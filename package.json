@@ -1,6 +1,6 @@
 {
   "name": "process-logger",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Prefix child process console logging",
   "author": "Adam Hull <adam@hmlad.com>",
   "keywords": [
