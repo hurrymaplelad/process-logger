@@ -1,0 +1,29 @@
+{
+  "name": "process-logger",
+  "version": "0.0.0",
+  "description": "Prefix child process console logging",
+  "author": "Adam Hull <adam@hmlad.com>",
+  "keywords": [
+    "log child_process"
+  ],
+  "main": "lib/process_logger",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hurrymaplelad/process-logger.git"
+  },
+  "homepage": "https://github.com/hurrymaplelad/process-logger",
+  "bugs": "https://github.com/hurrymaplelad/process-logger/issues",
+  "dependencies": {
+    "split": "~0.3.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.7.x",
+    "mocha": "~1.x.x"
+  },
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "npm run compile",
+    "pretest": "npm run compile",
+    "compile": "coffee --compile --output lib/ src/"
+  }
+}
